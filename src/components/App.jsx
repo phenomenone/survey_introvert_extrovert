@@ -5,8 +5,10 @@ import Card from "./Card";
 
 function App() {
   return (
-    <div>
+    <div className="container">
       {/* <Header /> */}
+
+
       <Card 
         question="You’re really busy at work and a colleague is telling you their life story and personal woes. You:"
         answer1="A. Don’t dare to interrupt them"

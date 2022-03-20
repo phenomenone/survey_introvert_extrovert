@@ -5,12 +5,14 @@
 }
 html {
   font-family: "Montserrat", sans-serif;
-}
-body {
-  background: #eee;
-  padding: 0 16px;
+  background-color: rgb(255, 208, 208);
 }
 
+
+.container {
+  margin-top: 200px;
+  width: 100%;
+}
 
 .card {
   background: #F6F6F6;
@@ -18,8 +20,7 @@ body {
   box-shadow: 0 2px 5px rgb(122, 122, 122, 0.7);
   padding: 50px;
   width: 30%;
-  
-  margin: 200px;
+  margin: 15px 150px 15px;
   float: center;
 }
 
