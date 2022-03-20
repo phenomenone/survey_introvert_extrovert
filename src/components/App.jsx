@@ -9,11 +9,15 @@ function App() {
   return (
     <div>
       {/* <Header /> */}
-      <div className="container">
+      <div className="flex-container">
+        <div className="container">
         <Card 
           answer={data[0].question}
         />
+        </div>
+        <div className="container">
         <Card
+        
           answer={data[0].answer1}
         />
         <Card
@@ -25,6 +29,7 @@ function App() {
         <Card
           answer={data[0].answer4}
         />
+        </div>
       </div>
 
       <Footer />

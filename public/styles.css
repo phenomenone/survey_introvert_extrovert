@@ -1,16 +1,22 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+
 }
 html {
   font-family: "Montserrat", sans-serif;
-  background-color: rgb(255, 208, 208);
+  background-color: rgb(218, 218, 218);
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1px;
+  margin: 200px 50px 10px;
+}
 
 .container {
-  margin-top: 200px;
+  margin: 10px;
   width: 100%;
 }
 
@@ -19,9 +25,9 @@ html {
   border-radius: 30px;
   box-shadow: 0 2px 5px rgb(122, 122, 122, 0.7);
   padding: 50px;
-  width: 30%;
-  margin: 15px 150px 15px;
-  float: center;
+  width: 75%;
+  margin: 10px auto;
+  height:  3rem;
 }
 
 
@@ -36,5 +42,5 @@ footer {
 }
 
 footer p {
-  color: #ccc;
+  color: rgb(163, 163, 163);
 }
