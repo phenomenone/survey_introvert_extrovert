@@ -1,11 +1,21 @@
 import React from "react";
 
-function Card() {
+function Card(Props) {
   return (
+    <div>
       <div className="card">
-        <h1>Question X</h1>
-        <p>This is question number x</p>
+        <p>{Props.answer1}</p>
       </div>
+      <div className="card">
+        <p>{Props.answer2}</p>
+      </div>
+      <div className="card">
+        <p>{Props.answer3}</p>
+      </div>
+      <div className="card">
+        <p>{Props.answer4}</p>
+      </div>
+    </div>
   );
 }
 
