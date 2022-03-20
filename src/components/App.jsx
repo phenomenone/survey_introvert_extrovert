@@ -2,20 +2,31 @@ import React from "react";
 // import Header from "./Header";
 import Footer from "./Footer";
 import Card from "./Card";
+import data from "../data";
 
 function App() {
+  console.log(data);
   return (
-    <div className="container">
+    <div>
       {/* <Header /> */}
+      <div className="container">
+        <Card 
+          answer={data[0].question}
+        />
+        <Card
+          answer={data[0].answer1}
+        />
+        <Card
+          answer={data[0].answer2}
+        />
+        <Card
+          answer={data[0].answer3}
+        />
+        <Card
+          answer={data[0].answer4}
+        />
+      </div>
 
-
-      <Card 
-        question="You’re really busy at work and a colleague is telling you their life story and personal woes. You:"
-        answer1="A. Don’t dare to interrupt them"
-        answer2="B. Think it’s more important to give them some of your time; work can wait"
-        answer3="C. Listen, but with only with half an ear"
-        answer4="D. Interrupt and explain that you are really busy at the moment"
-      />
       <Footer />
     </div>
   );

@@ -42,3 +42,5 @@ const data = [
         answer4: "D. Keep telling it until they pay attention"
     }
 ];
+
+export default data;
