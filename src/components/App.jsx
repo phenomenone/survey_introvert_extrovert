@@ -7,15 +7,15 @@ import data from "../data";
 function App() {
   console.log(data);
   return (
-    <div>
-      {/* <Header /> */}
-      <div className="flex-container">
-        <div className="container">
-        <Card 
-          answer={data[0].question}
-        />
+    <div className="flexbox-container">
+
+        <div className="flexbox-item">
+          <div className="card main-card">
+            <h1>Are you an introvert or and extrovert?</h1>     
+            <h3> {data[0].question}</h3>
+         </div>
         </div>
-        <div className="container">
+        <div className="flexbox-item">
         <Card
         
           answer={data[0].answer1}
@@ -29,7 +29,7 @@ function App() {
         <Card
           answer={data[0].answer4}
         />
-        </div>
+
       </div>
 
       <Footer />
