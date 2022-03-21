@@ -12,7 +12,10 @@ function App() {
   return (
     <div>
       <div className="flexbox-container">
-          <Maincard question={questions[questionNumber].question} />
+          <Maincard 
+          question={questions[questionNumber].question} 
+          id={questions[questionNumber].id}
+          />
           <Card id={questions[questionNumber].id}/>
       </div>
 

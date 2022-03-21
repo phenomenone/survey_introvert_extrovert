@@ -12,7 +12,6 @@ h3 {
   color: rgb(145, 120, 90);
 }
 
-
 .flexbox-container {
   display: flex;
   flex-wrap: wrap;
@@ -22,6 +21,11 @@ h3 {
   flex-direction: row;
   
 }
+.page-count{
+  margin: 30% 45%;
+  color: rgb(71, 71, 71);
+  filter: blur(0.6px);
+}
 
 .flexbox-item {
   margin: 10px;
@@ -29,21 +33,49 @@ h3 {
   height: 450px;
   max-width: 500px;
   /* border: 3px solid #333; */
-  
 }
 
+.answer-button-card{
+  display: inline-block;
+  background-color: #F6F6F6;
+  text-align: justify;
+  padding: 30px;
+  width: 480px;
+  margin: 5px;
+  height: 6.5rem;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 2px 5px rgb(122, 122, 122, 0.7);
+}
+
+.answer-button-card:hover{
+  background-color: rgb(81, 197, 206);
+  color: azure;
+  font-weight: bold;
+  transition: all .8s;
+  box-shadow: 0 2px 20px rgb(122, 122, 122, 0.7);
+}
+
+.answer-button-card:active{
+  background-color: rgb(106, 172, 32);
+  color: azure;
+}
+
+
 .card {
-  background: #F6F6F6;
+  background-color: #F6F6F6;
   text-align: justify;
   border-radius: 20px;
   box-shadow: 0 2px 5px rgb(122, 122, 122, 0.7);
   padding: 30px;
   height: 2.5rem;
   margin: 10px;
+  border: none;
+  height: 382px;
 }
 
 .btn-p {
-  margin: -100px 200px;
+  margin: -25% 37%;
   }
 
 .btn {
@@ -54,10 +86,14 @@ h3 {
   border-radius: 10px;
   border: none;
   box-shadow: 0 2px 5px rgb(122, 122, 122, 0.7);
+  width: 130px;
+  align-items: center;
 }
 
-.main-card {
-  height: 370px;
+.btn:hover {
+  box-shadow: 0 2px 20px rgb(122, 122, 122, 0.7);
+  background-color: rgb(158, 58, 240);
+  transition: all 0.5s
 }
 
 /* footer */

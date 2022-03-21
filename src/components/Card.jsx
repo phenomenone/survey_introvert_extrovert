@@ -5,18 +5,18 @@ function Card(Props) {
 
   return (
     <div className="flexbox-item">
-      <div className="card">
-        <p>{questions[Props.id].answer1}</p>
-      </div>
-      <div className="card">
-        <p>{questions[Props.id].answer2}</p>
-      </div>
-      <div className="card">
-        <p>{questions[Props.id].answer3}</p>
-      </div>
-      <div className="card">
-        <p>{questions[Props.id].answer4}</p>
-      </div>
+      <button type="button" className="answer-button-card" active="true">
+      {questions[Props.id].answer1}
+      </button>
+      <button className="answer-button-card" active="true">
+      {questions[Props.id].answer2}
+      </button>
+      <button className="answer-button-card" active="true">
+      {questions[Props.id].answer3}
+      </button>
+      <button className="answer-button-card" active="true">
+      {questions[Props.id].answer4}
+      </button>
     </div>
   );
 }
