@@ -42,6 +42,10 @@ h3 {
   margin: 10px;
 }
 
+.btn-p {
+  margin: -100px 200px;
+  }
+
 .btn {
   padding: 15px;
   background-color: rgb(22, 49, 197);
@@ -52,15 +56,6 @@ h3 {
   box-shadow: 0 2px 5px rgb(122, 122, 122, 0.7);
 }
 
-
-.btn-p {
-margin: -100px 200px;
-}
-.btn:hover{
-  background-color: rgb(35, 67, 245);
-
-
-}
 .main-card {
   height: 370px;
 }
