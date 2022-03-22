@@ -4,22 +4,23 @@
   font-family: "Montserrat", sans-serif;
 }
 html {
-  background: linear-gradient(145deg, #656565, #555555);
-  background-attachment: fixed;
-  /* background-size:cover; */
+  background: linear-gradient(315deg, #f4fbff, #adb2b8);
+  background-attachment: fixed; 
+  background-size: cover;
 
 }
 
 h1 {
-  color: #fd7526;
+  color: #6d5dfc;
   filter: blur(.5px);
-  text-shadow: #fd7526;
+  
 }
 
 h3 {
   margin-top: 5rem;
-  color: rgb(16, 93, 99);
+  color: #ff2139;
   filter: blur(.5px);
+ 
 }
 
 .flexbox-container {
@@ -33,7 +34,7 @@ h3 {
 }
 .page-count{
   margin: 30% 45%;
-  color: rgb(71, 71, 71);
+  color: rgb(168, 167, 167);
   filter: blur(0.6px);
 }
 
@@ -47,11 +48,12 @@ h3 {
 }
 
 .card {
-  background: #5e5e5e;
+  background-color: #cdd4dd;
+  display: inline-block;
   text-align: justify;
   border-radius: 20px;
-  box-shadow:  13px 13px 29px #4f4f4f,
-  -13px -13px 29px #6d6d6d;
+  box-shadow:  -7px -7px 14px #7d8187,
+  7px 7px 14px #ffffff;
   padding: 30px;
   height: 2.5rem;
   margin: 5px;
@@ -64,18 +66,20 @@ h3 {
 }
 
 #checkbox-button span {
-  background-color: #5e5e5e;
+  background-color: #cdd4dd;
   display: inline-block;
   padding: 30px;
   border: none;
   border-radius: 20px;
-  color: rgb(111, 122, 151);
+  color: rgb(107, 107, 107);
   height: 2.5rem;
   width: 382px;
   text-align: justify;
+  font-weight: bold;
   margin: 6px;
-  box-shadow:  13px 13px 29px #4f4f4f,
-  -13px -13px 29px #6d6d6d;
+  box-shadow:  -7px -7px 14px #7d8187,
+  7px 7px 14px #ffffff;
+
   cursor: pointer;
 }
 
@@ -89,11 +93,12 @@ h3 {
   
 }
 #checkbox-button input[type="radio"]:checked + span {
-  background-color: rgb(58, 85, 238);
+  background: linear-gradient(315deg, #3e5bff, #344dd6);
   color: white;
   font-weight: bold;
   border: none;
-  box-shadow: 1px 1px 10px 12px rgb(0, 0, 0);
+  box-shadow:  -7px -7px 14px #7d8187,
+  7px 7px 14px #ffffff;
 }
 
 .btn-p {
@@ -107,16 +112,19 @@ h3 {
   font-weight: bold;
   border-radius: 10px;
   border: none;
-  box-shadow: 0 2px 5px rgb(122, 122, 122, 0.7);
+  box-shadow:  -7px -7px 14px #7d8187,
+  7px 7px 14px #ffffff;
+
   width: 130px;
   align-items: center;
 }
 
 .btn:hover {
-  box-shadow: 0 2px 20px rgb(122, 122, 122, 0.7);
   background-color: #87b3b4;
   transition: all 0.5s;
   cursor: pointer;
+  box-shadow:  -7px -7px 14px #7d8187,
+  7px 7px 14px #ffffff;
 }
 
 .btn:active {
@@ -137,6 +145,7 @@ footer {
 
 footer p {
   color: rgb(163, 163, 163);
+ 
 }
 
 
