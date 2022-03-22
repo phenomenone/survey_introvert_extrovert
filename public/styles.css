@@ -4,12 +4,22 @@
   font-family: "Montserrat", sans-serif;
 }
 html {
-  background-color: rgb(218, 218, 218);
+  background: linear-gradient(145deg, #656565, #555555);
+  background-attachment: fixed;
+  /* background-size:cover; */
+
+}
+
+h1 {
+  color: #fd7526;
+  filter: blur(.5px);
+  text-shadow: #fd7526;
 }
 
 h3 {
   margin-top: 5rem;
-  color: rgb(145, 120, 90);
+  color: rgb(16, 93, 99);
+  filter: blur(.5px);
 }
 
 .flexbox-container {
@@ -31,47 +41,59 @@ h3 {
   margin: 10px;
   width: 500px;
   height: 450px;
-  max-width: 500px;
+
   /* border: 3px solid #333; */
-}
 
-.answer-button-card{
-  display: inline-block;
-  background-color: #F6F6F6;
-  text-align: justify;
-  padding: 30px;
-  width: 480px;
-  margin: 5px;
-  height: 6.5rem;
-  border-radius: 20px;
-  border: none;
-  box-shadow: 0 2px 5px rgb(122, 122, 122, 0.7);
 }
-
-.answer-button-card:hover{
-  background-color: rgb(81, 197, 206);
-  color: azure;
-  font-weight: bold;
-  transition: all .8s;
-  box-shadow: 0 2px 20px rgb(122, 122, 122, 0.7);
-}
-
-.answer-button-card:active{
-  background-color: rgb(106, 172, 32);
-  color: azure;
-}
-
 
 .card {
-  background-color: #F6F6F6;
+  background: #5e5e5e;
   text-align: justify;
   border-radius: 20px;
-  box-shadow: 0 2px 5px rgb(122, 122, 122, 0.7);
+  box-shadow:  13px 13px 29px #4f4f4f,
+  -13px -13px 29px #6d6d6d;
   padding: 30px;
   height: 2.5rem;
-  margin: 10px;
+  margin: 5px;
   border: none;
   height: 382px;
+}
+
+#checkbox-button input[type="radio"] {
+  display: none;
+}
+
+#checkbox-button span {
+  background-color: #5e5e5e;
+  display: inline-block;
+  padding: 30px;
+  border: none;
+  border-radius: 20px;
+  color: rgb(111, 122, 151);
+  height: 2.5rem;
+  width: 382px;
+  text-align: justify;
+  margin: 6px;
+  box-shadow:  13px 13px 29px #4f4f4f,
+  -13px -13px 29px #6d6d6d;
+  cursor: pointer;
+}
+
+#checkbox-button span:hover {
+  border: solid 1px #87b3b4;
+  color: #fff;
+  background-color: #87b3b4;
+  font-weight: bold;
+  box-shadow: 0 2px 25px rgba(105, 235, 245, 0.966);
+  transition: all .7s;
+  
+}
+#checkbox-button input[type="radio"]:checked + span {
+  background-color: rgb(58, 85, 238);
+  color: white;
+  font-weight: bold;
+  border: none;
+  box-shadow: 1px 1px 10px 12px rgb(0, 0, 0);
 }
 
 .btn-p {
@@ -80,7 +102,7 @@ h3 {
 
 .btn {
   padding: 15px;
-  background-color: rgb(22, 49, 197);
+  background-color: rgb(58, 85, 238);
   color: white;
   font-weight: bold;
   border-radius: 10px;
@@ -92,8 +114,15 @@ h3 {
 
 .btn:hover {
   box-shadow: 0 2px 20px rgb(122, 122, 122, 0.7);
-  background-color: rgb(158, 58, 240);
-  transition: all 0.5s
+  background-color: #87b3b4;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.btn:active {
+  box-shadow: 0 2px 20px rgb(122, 122, 122, 0.7);
+  background-color: #87b3b4;
+  transition: all 0.5s;
 }
 
 /* footer */
@@ -109,4 +138,5 @@ footer {
 footer p {
   color: rgb(163, 163, 163);
 }
+
 
