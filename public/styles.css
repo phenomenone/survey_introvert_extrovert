@@ -4,7 +4,7 @@
   font-family: "Montserrat", sans-serif;
 }
 html {
-  background: linear-gradient(315deg, #f4fbff, #adb2b8);
+  background-image: linear-gradient(315deg, #d5d6d6, #adb2b8);
   background-attachment: fixed; 
   background-size: cover;
 }
@@ -46,12 +46,12 @@ h3 {
 }
 
 .card {
-  background-color: #cdd4dd;
+  background-image: linear-gradient(315deg, #c2c8ce, #c4c7c7);
   display: inline-block;
   text-align: justify;
   border-radius: 20px;
   box-shadow:  -7px -7px 14px #7d8187,
-  7px 7px 14px #ffffff;
+  7px 7px 14px #e4e3e3;
   padding: 30px;
   height: 2.5rem;
   margin: 5px;
@@ -64,37 +64,38 @@ h3 {
 }
 
 #checkbox-button span {
-  background-color: #cdd4dd;
+  background-image: linear-gradient(315deg, #c2c8ce, #c4c7c7);
   display: inline-block;
   padding: 30px;
   border: none;
   border-radius: 20px;
-  color: rgb(107, 107, 107);
+  color: rgb(81, 19, 253);
   height: 2.5rem;
   width: 382px;
   text-align: justify;
   font-weight: bold;
   margin: 6px;
   box-shadow:  -7px -7px 14px #7d8187,
-  7px 7px 14px #ffffff;
+  7px 7px 14px #f5f3f3;
   cursor: pointer;
 }
 
 #checkbox-button span:hover {
   color: #fff;
-  background-image: linear-gradient(to right, rgb(86, 210, 226) , rgb(51, 176, 192));
+  background-image: linear-gradient(to right, rgb(122, 108, 139), rgba(252, 167, 57, 0.836));
   font-weight: bold;
-  box-shadow: 0 2px 15px rgba(212, 86, 48, 0.836);
   transition: all .7s;
-  
+  box-shadow:  -7px -7px 14px #FFF,
+  7px 7px 14px #7d8187;
+  transition: all 1s;
 }
 #checkbox-button input[type="radio"]:checked + span {
-  background: linear-gradient(315deg, #3e5bff, #344dd6);
+  background-image: linear-gradient(15deg, #3e5bff, #4960dd);
   color: white;
   font-weight: bold;
   border: none;
-  box-shadow:  -7px -7px 14px #7d8187,
-  7px 7px 14px #ffffff;
+  box-shadow:  -7px -7px 14px #2f3031,
+  7px 7px 15px #ffffff;
 }
 
 .btn-p {
@@ -109,32 +110,23 @@ h3 {
   font-weight: bold;
   border-radius: 10px;
   border: none;
-  box-shadow:  -7px -7px 14px #7d8187,
-  7px 7px 14px #ffffff;
+  box-shadow:  -7px -7px 14px #ffffff,
+  7px 7px 14px #7d8187;
   width: 130px;
   align-items: center;
   filter: blur(.4px);
 }
 
 .btn:hover {
-  background-image: linear-gradient(to right, rgb(61, 198, 216) , rgba(14, 49, 250, 0.836));
+  background-image: linear-gradient(to right, rgb(124, 52, 219), rgba(14, 49, 250, 0.836));
   transition: all 0.5s;
   cursor: pointer;
 
   color: white;
-  box-shadow: 0 2px 15px rgba(212, 86, 48, 0.836);
-
-}
-
-.btn:active {
-  box-shadow: 0 2px 20px rgb(122, 122, 122, 0.7);
-  background-color: rgba(14, 49, 250, 0.836);
-  transition: all 0.5s;
   box-shadow:  -7px -7px 14px #7d8187,
   7px 7px 14px #ffffff;
-  color: rgb(160, 238, 144);
-}
 
+}
 /* footer */
 
 footer {
@@ -150,4 +142,17 @@ footer p {
  
 }
 
+.glow {
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
 
+@keyframes glow {
+  from {
+    text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #5d38c4, 0 0 1px #5d38c4, 0 0 1px #5d38c4, 0 0 1px #5d38c4, 0 0 1px #5d38c4;
+  }
+  to {
+    text-shadow: 0 0 1px #fff, 0 0 1px rgb(165, 130, 248), 0 0 1px rgb(165, 130, 248), 0 0 1px rgb(248, 167, 130), 0 0 1px rgb(165, 130, 248), 0 0 1px rgb(165, 130, 248), 0 0 2px #ba8afa;
+  }
+}
