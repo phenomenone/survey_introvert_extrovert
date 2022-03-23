@@ -7,20 +7,18 @@ html {
   background: linear-gradient(315deg, #f4fbff, #adb2b8);
   background-attachment: fixed; 
   background-size: cover;
-
 }
 
 h1 {
-  color: #6d5dfc;
+  text-decoration: wavy;
+  color: #1e1e1e;
   filter: blur(.5px);
-  
 }
 
 h3 {
   margin-top: 5rem;
-  color: #ff2139;
+  color: #0e39f8;
   filter: blur(.5px);
- 
 }
 
 .flexbox-container {
@@ -34,7 +32,7 @@ h3 {
 }
 .page-count{
   margin: 30% 45%;
-  color: rgb(168, 167, 167);
+  color: rgb(29, 28, 28);
   filter: blur(0.6px);
 }
 
@@ -79,16 +77,14 @@ h3 {
   margin: 6px;
   box-shadow:  -7px -7px 14px #7d8187,
   7px 7px 14px #ffffff;
-
   cursor: pointer;
 }
 
 #checkbox-button span:hover {
-  border: solid 1px #87b3b4;
   color: #fff;
-  background-color: #87b3b4;
+  background-image: linear-gradient(to right, rgb(86, 210, 226) , rgb(51, 176, 192));
   font-weight: bold;
-  box-shadow: 0 2px 25px rgba(105, 235, 245, 0.966);
+  box-shadow: 0 2px 15px rgba(212, 86, 48, 0.836);
   transition: all .7s;
   
 }
@@ -107,30 +103,36 @@ h3 {
 
 .btn {
   padding: 15px;
-  background-color: rgb(58, 85, 238);
-  color: white;
+  background-color: #cdd4dd;
+  color: #1e1e1e;
+  font-size: 1rem;
   font-weight: bold;
   border-radius: 10px;
   border: none;
   box-shadow:  -7px -7px 14px #7d8187,
   7px 7px 14px #ffffff;
-
   width: 130px;
   align-items: center;
+  filter: blur(.4px);
 }
 
 .btn:hover {
-  background-color: #87b3b4;
+  background-image: linear-gradient(to right, rgb(61, 198, 216) , rgba(14, 49, 250, 0.836));
   transition: all 0.5s;
   cursor: pointer;
-  box-shadow:  -7px -7px 14px #7d8187,
-  7px 7px 14px #ffffff;
+
+  color: white;
+  box-shadow: 0 2px 15px rgba(212, 86, 48, 0.836);
+
 }
 
 .btn:active {
   box-shadow: 0 2px 20px rgb(122, 122, 122, 0.7);
-  background-color: #87b3b4;
+  background-color: rgba(14, 49, 250, 0.836);
   transition: all 0.5s;
+  box-shadow:  -7px -7px 14px #7d8187,
+  7px 7px 14px #ffffff;
+  color: rgb(160, 238, 144);
 }
 
 /* footer */
