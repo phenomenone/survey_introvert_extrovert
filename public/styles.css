@@ -127,6 +127,19 @@ h3 {
   7px 7px 14px #ffffff;
 
 }
+
+.btn-hide {
+  padding: 15px;
+  background-color: #cdd4dd;
+  color: #7d8187;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  width: 130px;
+  align-items: center;
+  filter: blur(.4px);
+}
 /* footer */
 
 footer {
@@ -138,21 +151,7 @@ footer {
 }
 
 footer p {
-  color: rgb(163, 163, 163);
+  color: rgb(218, 80, 16);
  
 }
 
-.glow {
-  color: #fff;
-  text-align: center;
-  animation: glow 1s ease-in-out infinite alternate;
-}
-
-@keyframes glow {
-  from {
-    text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #5d38c4, 0 0 1px #5d38c4, 0 0 1px #5d38c4, 0 0 1px #5d38c4, 0 0 1px #5d38c4;
-  }
-  to {
-    text-shadow: 0 0 1px #fff, 0 0 1px rgb(165, 130, 248), 0 0 1px rgb(165, 130, 248), 0 0 1px rgb(248, 167, 130), 0 0 1px rgb(165, 130, 248), 0 0 1px rgb(165, 130, 248), 0 0 2px #ba8afa;
-  }
-}
