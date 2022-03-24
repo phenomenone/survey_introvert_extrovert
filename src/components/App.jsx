@@ -19,7 +19,7 @@ function App() {
               <div className="card">
                 <h1>Are you an introvert or and extrovert?</h1>
                 <h3> {questions[count].question}</h3>
-                <p className="page-count">{questions[count].id} of 6</p> 
+                <p className="page-count">{questions[count].id}/6</p> 
               </div>
               <div className="btn-p">
                 { isSelected 

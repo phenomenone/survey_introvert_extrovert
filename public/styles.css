@@ -28,8 +28,8 @@ h3 {
 }
 
 .page-count{
-  margin: 30% 45%;
-  color: rgb(29, 28, 28);
+  margin: 30% 48%;
+  color: rgb(218, 80, 16);
   filter: blur(0.6px);
   font-weight: bold;
   filter: blur(0.6px);
@@ -159,12 +159,12 @@ footer p {
     text-align: center;
     color: #1e1e1e;
     filter: blur(.5px);
-    font-size: 4.vw;
+    font-size: 5vw;
   }
 
   h3 {
     font-size: 2.5vw;
-    margin-top: 8rem;
+    margin-top: 7vw;
     color: #0e39f8;
     filter: blur(.5px);
     padding: 2px 50px;
@@ -176,9 +176,10 @@ footer p {
   }
 
   .page-count{
-    margin: 10% 47%;
-    font-size: 1.5vw;
+    margin: 5% 49%;
+    font-size: 2vw;
     justify-content: center;
+    color: rgb(218, 80, 16);
   }
 
   .flexbox-item {
@@ -193,27 +194,28 @@ footer p {
 
   #checkbox-button span {
     height: 2.5rem;
-    width: 85%;
+    width: 87%;
     text-align: center;
     font-size: 1.8vw;
     padding: 30px 60px;
   }
   
   .btn-p {
-    margin: 70% 37%;
+    margin: 55% 35%;
   }  
 
   .btn {
+    display: block;
     color: rgb(29, 28, 28);
     font-size: 1.5rem;
     filter: blur(.4px);
-    width: 180px;
+    width: 280px;
   }
 
   .btn-hide {
     background-image: linear-gradient(315deg, #9f9aad, #c4c7c8);
     font-size: 1.5rem;
-    width: 180px;
+    width: 280px;
     filter: blur(.4px);
   }
 
