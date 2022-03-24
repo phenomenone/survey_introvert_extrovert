@@ -1,9 +1,7 @@
-import React, { Fragment, useState, useRef } from "react";
+import React, { Fragment, useState } from "react";
 // import Header from "./Header";
 import Footer from "./Footer";
-import Card from "./Card";
 import questions from "../questions";
-import Maincard from "./Maincard";
 
 function App() {
 
