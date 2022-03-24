@@ -8,8 +8,10 @@ function App() {
   const [isSelected, setIsSelected] = useState(false);
 
   const [count, setCount ] = useState(0);
-  console.log(count);
 
+  const [addNumber, setAddNumber] = useState(0);
+
+  console.log(addNumber)
 
   return (
     <Fragment>
@@ -23,7 +25,7 @@ function App() {
               </div>
               <div className="btn-p">
                 { isSelected 
-                  ? <input className={isSelected ? "btn" : "btn-hide"} type="reset" value=" Next >" onClick={() => {setCount(count + 1); setIsSelected(false)}}/> 
+                  ? <input className={isSelected ? "btn" : "btn-hide"} type="reset" value=" Next >" onClick={() => {setCount(count + 1); setIsSelected(false);}} /> 
                   : <input className={isSelected ? "btn" : "btn-hide"} type="reset" value=" Next >" />
                 }
               </div>
@@ -31,10 +33,10 @@ function App() {
             </div>
             <div className="flexbox-item">
               <div id="checkbox-button">
-                <label><input onClick={()=> setIsSelected(true)} type="radio" name="answer" value="A" /><span>{questions[count].answer1}</span></label>
-                <label><input onClick={()=> setIsSelected(true)} type="radio" name="answer" value="B" /><span>{questions[count].answer2}</span></label>
-                <label><input onClick={()=> setIsSelected(true)} type="radio" name="answer" value="C" /><span>{questions[count].answer3}</span></label>
-                <label><input onClick={()=> setIsSelected(true)} type="radio" name="answer" value="D" /><span>{questions[count].answer4}</span></label>
+                <label><input onClick={()=> {setIsSelected(true);console.log("1");setAddNumber(addNumber + 1);}} type="radio" name="answer" value="1" /><span>{questions[count].answer1}</span></label>
+                <label><input onClick={()=> {setIsSelected(true);console.log("2");setAddNumber(addNumber + 2);}} type="radio" name="answer" value="2" /><span>{questions[count].answer2}</span></label>
+                <label><input onClick={()=> {setIsSelected(true);console.log("3");setAddNumber(addNumber + 3);}} type="radio" name="answer" value="3" /><span>{questions[count].answer3}</span></label>
+                <label><input onClick={()=> {setIsSelected(true);console.log("4");setAddNumber(addNumber + 4);}} type="radio" name="answer" value="4" /><span>{questions[count].answer4}</span></label>
               </div>
             </div>
         </div>
