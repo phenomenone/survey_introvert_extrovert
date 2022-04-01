@@ -237,6 +237,7 @@ footer p {
   .card {
     height: 33rem;
     padding: 30px;
+    width: 92%;
   }
 
   #checkbox-button span {
@@ -300,13 +301,26 @@ footer p {
 
   .btn-p {
     margin: 80% 28%;
-  }  
+  }
+
+  .card {
+    width: 93%;
+  }
+
 }
 
 @media screen and (max-width: 875px) {
   .btn-p {
     margin: 85% 26%;
-  }  
+  }
+  .card {
+    width: 89%;
+  }
+
+  #checkbox-button span {
+    width: 82%;
+  }
+
 }
 
 /* Text Glow Animation */
